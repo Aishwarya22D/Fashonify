@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.button{
+    @apply mt-1.5 inline-block bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white
+}
+
+.productButton{
+    @apply mt-1.5 flex w-full justify-center bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white
+}
